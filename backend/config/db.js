@@ -6,7 +6,5 @@ const connection = mongoose.createConnection('mongodb+srv://luckyvishwa1104:luck
     console.log("MongoDB not connected.")
 });
 
-//mongodb://127.0.0.1:27017/UserLoginDetails - for local
-//mongodb+srv://luckyvishwa1104:lucky1104@cluster0.i72lmi2.mongodb.net/UserLoginDetails?retryWrites=true&w=majority&appName=Cluster0 - for remote
 
 module.exports = connection;
